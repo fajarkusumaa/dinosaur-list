@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml"
+    href="https://icons.iconarchive.com/icons/icons8/windows-8/256/Animals-Dinosaur-icon.png" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dinosaur</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+  <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+  <script>
+    function _calculateScrollbarHeight() {
+      document.documentElement.style.setProperty(
+        "--scrollbar-height",
+        window.innerWidth - document.documentElement.clientWidth + "px"
+      );
+    }
+
+    // recalculate on dom load
+    document.addEventListener(
+      "DOMContentLoaded",
+      _calculateScrollbarHeight,
+      false
+    );
+    // recalculate on load (assets loaded as well)
+    window.addEventListener("load", _calculateScrollbarHeight);
+    // recalculate on resize
+    window.addEventListener("resize", _calculateScrollbarHeight, false)
+  </script>
+
+</body>
+
+</html>

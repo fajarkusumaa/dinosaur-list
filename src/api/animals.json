@@ -1,0 +1,1585 @@
+[
+    {
+        "name": "Aardvark",
+        "id": "aardvark",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/2/2b/Zoopedia_Aardvark.jpg/revision/latest/scale-to-width-down/350?cb=20191112073833",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Grassland",
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 330,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 16,
+        "temperature_max": 40
+    },
+    {
+        "name": "African Buffalo",
+        "id": "african_buffalo",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/c/c4/Zoopedia_African_Buffalo.jpg/revision/latest/scale-to-width-down/350?cb=20191112074648",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Grassland",
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 420,
+        "water_area": 20,
+        "climbing_area": 0,
+        "temperature_min": 16,
+        "temperature_max": 40
+    },
+    {
+        "name": "African Elephant",
+        "id": "african_elephant",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/e/ed/Zoopedia_African_Elephant.jpg/revision/latest/scale-to-width-down/350?cb=20191112080029",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Desert",
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 2151,
+        "water_area": 148,
+        "climbing_area": 0,
+        "temperature_min": 16,
+        "temperature_max": 42
+    },
+    {
+        "name": "African Wild Dog",
+        "id": "african_wild dog",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/d/d6/Zoopedia_African_Wild_Dog.jpg/revision/latest/scale-to-width-down/350?cb=20191112080357",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 1162,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 16,
+        "temperature_max": 40
+    },
+    {
+        "name": "Aldabra Giant Tortoise",
+        "id": "aldabra_giant tortoise",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/6/61/Zoopedia_Aldabra_Giant_Tortoise.jpg/revision/latest/scale-to-width-down/350?cb=20191112080652",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 230,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 16,
+        "temperature_max": 42
+    },
+    {
+        "name": "Amazonian Giant Centipede",
+        "id": "amazonian_giant centipede",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/b/bb/Amazonian-Giant-Centipede.jpg/revision/latest/scale-to-width-down/350?cb=20191105181138",
+        "continents": [
+            "South America"
+        ],
+        "biomes": [
+            "Temperate",
+            "Tropical"
+        ],
+        "temperature_min": 23,
+        "temperature_max": 29,
+        "is_habitat": false,
+        "humidity_min": 50,
+        "humidity_max": 84
+    },
+    {
+        "name": "American Bison",
+        "id": "american_bison",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/d/d6/AmericanBison-0.jpg/revision/latest/scale-to-width-down/350?cb=20191105163730",
+        "continents": [
+            "North America"
+        ],
+        "biomes": [
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 420,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 0,
+        "temperature_max": 40
+    },
+    {
+        "name": "Arctic Wolf",
+        "id": "arctic_wolf",
+        "dlc": "arctic_pack",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/2/2a/Arctic_wolf.jpg/revision/latest/scale-to-width-down/350?cb=20191218071028",
+        "continents": [
+            "North America"
+        ],
+        "biomes": [
+            "Taiga",
+            "Tundra"
+        ],
+        "is_habitat": true,
+        "land_area": 1162,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": -12,
+        "temperature_max": 16
+    },
+    {
+        "name": "Bactrian Camel",
+        "id": "bactrian_camel",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/a/a0/Zoopedia_Bactrian_Camel.jpg/revision/latest/scale-to-width-down/350?cb=20191112081438",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Desert",
+            "Temperate"
+        ],
+        "is_habitat": true,
+        "land_area": 650,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 5,
+        "temperature_max": 44
+    },
+    {
+        "name": "Baird's Tapir",
+        "id": "bairds_tapir",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/1/1b/Zoopedia_Baird%27s_Tapir.jpg/revision/latest/scale-to-width-down/350?cb=20191112081707",
+        "continents": [
+            "South America",
+            "Central America"
+        ],
+        "biomes": [
+            "Tropical",
+            "Temperate",
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 430,
+        "water_area": 37,
+        "climbing_area": 0,
+        "temperature_min": 16,
+        "temperature_max": 40
+    },
+    {
+        "name": "Bengal Tiger",
+        "id": "bengal_tiger",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/e/ed/Zoopedia_Bengal_Tiger.jpg/revision/latest/scale-to-width-down/350?cb=20191112082146",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Tropical",
+            "Temperate",
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 705,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 12,
+        "temperature_max": 40
+    },
+    {
+        "name": "Black Wildebeest",
+        "id": "black_wildebeest",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/8/81/BlackWildebeest.jpg/revision/latest/scale-to-width-down/350?cb=20191112082618",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 410,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Boa Constrictor",
+        "id": "boa_constrictor",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/c/c8/BoaConstrictor.jpg/revision/latest/scale-to-width-down/350?cb=20191112083404",
+        "continents": [
+            "South America",
+            "Central America"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "temperature_min": 23,
+        "temperature_max": 31,
+        "is_habitat": false,
+        "humidity_min": 60,
+        "humidity_max": 80
+    },
+    {
+        "name": "Bongo",
+        "id": "bongo",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/d/d8/Bongo.jpg/revision/latest/scale-to-width-down/350?cb=20191112083532",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 240,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Bonobo",
+        "id": "bonobo",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/f/f8/Bonobo-0.jpg/revision/latest/scale-to-width-down/350?cb=20191113070958",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 780,
+        "water_area": 0,
+        "climbing_area": 80,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Bornean Orangutan",
+        "id": "bornean_orangutan",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/2/20/BorneanOrangutan.jpg/revision/latest/scale-to-width-down/350?cb=20191113070815",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 780,
+        "water_area": 0,
+        "climbing_area": 120,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Brazilian Salmon Pink Tarantula",
+        "id": "brazilian_salmon_pink_tarantula",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/a/ab/BrazilianSalmonPinkTarantula.jpg/revision/latest/scale-to-width-down/350?cb=20191113070235",
+        "continents": [
+            "South America"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "temperature_min": 23,
+        "temperature_max": 29,
+        "is_habitat": false,
+        "humidity_min": 50,
+        "humidity_max": 84
+    },
+    {
+        "name": "Brazilian Wandering Spider",
+        "id": "brazilian_wandering_spider",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/b/b5/BrazilianWanderingSpider.jpg/revision/latest/scale-to-width-down/350?cb=20191113070049",
+        "continents": [
+            "South America"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "temperature_min": 23,
+        "temperature_max": 29,
+        "is_habitat": false,
+        "humidity_min": 50,
+        "humidity_max": 84
+    },
+    {
+        "name": "Cheetah",
+        "id": "cheetah",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/3/36/Cheetah-0.jpg/revision/latest/scale-to-width-down/350?cb=20191113065806",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 705,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Chinese Pangolin",
+        "id": "chinese_pangolin",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/7/76/ChinesePangolin.jpg/revision/latest/scale-to-width-down/350?cb=20191112100447",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Tropical",
+            "Temperate"
+        ],
+        "is_habitat": true,
+        "land_area": 182,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 12,
+        "temperature_max": 40
+    },
+    {
+        "name": "Colombian White-Faced Capuchin Monkey",
+        "id": "colombian_white-faced capuchin monkey",
+        "dlc": "south_america_pack",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/7/75/Capuchinzoopedia.jpg/revision/latest/scale-to-width-down/350?cb=20200408055053",
+        "continents": [
+            "South America",
+            "North America"
+        ],
+        "biomes": [
+            "Tropical",
+            "Temperate"
+        ],
+        "is_habitat": true,
+        "land_area": 210,
+        "water_area": 0,
+        "climbing_area": 20,
+        "temperature_min": 12,
+        "temperature_max": 42
+    },
+    {
+        "name": "Common Death Adder",
+        "id": "common_death_adder",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/3/30/CommonDeathAdder.jpg/revision/latest/scale-to-width-down/350?cb=20191112124840",
+        "continents": [
+            "Oceania"
+        ],
+        "biomes": [
+            "Grassland"
+        ],
+        "temperature_min": 23,
+        "temperature_max": 31,
+        "is_habitat": false,
+        "humidity_min": 60,
+        "humidity_max": 80
+    },
+    {
+        "name": "Common Ostrich",
+        "id": "common_ostrich",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/8/83/CommonOstrich.jpg/revision/latest/scale-to-width-down/350?cb=20191113065441",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 675,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Common Warthog",
+        "id": "common_warthog",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/6/6b/CommonWarthog.jpg/revision/latest/scale-to-width-down/350?cb=20191113065224",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Tropical",
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 290,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Dall Sheep",
+        "id": "dall_sheep",
+        "dlc": "arctic_pack",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/8/89/Dall_sheep.jpg/revision/latest/scale-to-width-down/350?cb=20191218070250",
+        "continents": [
+            "North America"
+        ],
+        "biomes": [
+            "Taiga",
+            "Tundra"
+        ],
+        "is_habitat": true,
+        "land_area": 425,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": -12,
+        "temperature_max": 16
+    },
+    {
+        "name": "Eastern Brown Snake",
+        "id": "eastern_brown_snake",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/e/e1/EasternBrownSnake.jpg/revision/latest/scale-to-width-down/350?cb=20191113065034",
+        "continents": [
+            "Oceania"
+        ],
+        "biomes": [
+            "Grassland",
+            "Temperate",
+            "Desert"
+        ],
+        "temperature_min": 23,
+        "temperature_max": 29,
+        "is_habitat": false,
+        "humidity_min": 60,
+        "humidity_max": 85
+    },
+    {
+        "name": "Formosan Black Bear",
+        "id": "formosan_black_bear",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/1/1e/FormosanBlackBear.jpg/revision/latest/scale-to-width-down/350?cb=20191113064718",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Tropical",
+            "Temperate"
+        ],
+        "is_habitat": true,
+        "land_area": 950,
+        "water_area": 0,
+        "climbing_area": 40,
+        "temperature_min": 0,
+        "temperature_max": 40
+    },
+    {
+        "name": "Galapagos Giant Tortoise",
+        "id": "galapagos_giant_tortoise",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/7/7e/GiantGalapagosTortoise.jpg/revision/latest/scale-to-width-down/350?cb=20191113063843",
+        "continents": [
+            "South America"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 230,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 14,
+        "temperature_max": 40
+    },
+    {
+        "name": "Gemsbok",
+        "id": "gemsbok",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/5/52/Gemsbok.jpg/revision/latest/scale-to-width-down/350?cb=20191113064642",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Desert"
+        ],
+        "is_habitat": true,
+        "land_area": 270,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 14,
+        "temperature_max": 42
+    },
+    {
+        "name": "Gharial",
+        "id": "gharial",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/b/b3/Gharial-01.jpg/revision/latest/scale-to-width-down/350?cb=20191113064422",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Aquatic",
+            "Tropical",
+            "Temperate"
+        ],
+        "is_habitat": true,
+        "land_area": 370,
+        "water_area": 300,
+        "climbing_area": 0,
+        "temperature_min": 14,
+        "temperature_max": 42
+    },
+    {
+        "name": "Giant Anteater",
+        "id": "giant_anteater",
+        "dlc": "south_america_pack",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/c/ca/Anteaterzoopedia.jpg/revision/latest/scale-to-width-down/350?cb=20200408055259",
+        "continents": [
+            "South America",
+            "North America"
+        ],
+        "biomes": [
+            "Tropical",
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 660,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 42
+    },
+    {
+        "name": "Giant Burrowing Cockroach",
+        "id": "giant_burrowing_cockroach",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/9/9a/GiantBurrowingCockroach.jpg/revision/latest/scale-to-width-down/350?cb=20191113064211",
+        "continents": [
+            "Oceania"
+        ],
+        "biomes": [
+            "Grassland",
+            "Temperate"
+        ],
+        "temperature_min": 25,
+        "temperature_max": 30,
+        "is_habitat": false,
+        "humidity_min": 60,
+        "humidity_max": 80
+    },
+    {
+        "name": "Giant Desert Hairy Scorpion",
+        "id": "giant_desert_hairy_scorpion",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/5/55/GiantDesertHairyScorpion.jpg/revision/latest/scale-to-width-down/350?cb=20191113063945",
+        "continents": [
+            "North America"
+        ],
+        "biomes": [
+            "Desert"
+        ],
+        "temperature_min": 25,
+        "temperature_max": 37,
+        "is_habitat": false,
+        "humidity_min": 20,
+        "humidity_max": 35
+    },
+    {
+        "name": "Giant Forest Scorpion",
+        "id": "giant_forest_scorpion",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/9/92/GiantForestScorpion.jpg/revision/latest/scale-to-width-down/350?cb=20191112082855",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "temperature_min": 21,
+        "temperature_max": 30,
+        "is_habitat": false,
+        "humidity_min": 65,
+        "humidity_max": 85
+    },
+    {
+        "name": "Giant Panda",
+        "id": "giant_panda",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/f/f1/GiantPanda-0.jpg/revision/latest/scale-to-width-down/350?cb=20191112100621",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Temperate"
+        ],
+        "is_habitat": true,
+        "land_area": 900,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 2,
+        "temperature_max": 29
+    },
+    {
+        "name": "Giant Tiger Land Snail",
+        "id": "giant_tiger_land_snail",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/f/f1/GiantTigerLandSnail.jpg/revision/latest/scale-to-width-down/350?cb=20191112141637",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Grassland",
+            "Temperate",
+            "Tropical"
+        ],
+        "temperature_min": 23,
+        "temperature_max": 36,
+        "is_habitat": false,
+        "humidity_min": 40,
+        "humidity_max": 60
+    },
+    {
+        "name": "Gila Monster",
+        "id": "gila_monster",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/b/b5/GilaMonster.jpg/revision/latest/scale-to-width-down/350?cb=20191112141359",
+        "continents": [
+            "North America"
+        ],
+        "biomes": [
+            "Desert"
+        ],
+        "temperature_min": 35,
+        "temperature_max": 42,
+        "is_habitat": false,
+        "humidity_min": 15,
+        "humidity_max": 25
+    },
+    {
+        "name": "Golden Poison Frog",
+        "id": "golden_poison_frog",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/4/4a/GoldenPoisonFrog.jpg/revision/latest/scale-to-width-down/350?cb=20191112060646",
+        "continents": [
+            "South America"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "temperature_min": 26,
+        "temperature_max": 31,
+        "is_habitat": false,
+        "humidity_min": 80,
+        "humidity_max": 90
+    },
+    {
+        "name": "Goliath Beetle",
+        "id": "goliath_beetle",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/b/b6/GoliathBeetle.jpg/revision/latest/scale-to-width-down/350?cb=20191112141228",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "temperature_min": 23,
+        "temperature_max": 36,
+        "is_habitat": false,
+        "humidity_min": 40,
+        "humidity_max": 60
+    },
+    {
+        "name": "Goliath Birdeater",
+        "id": "goliath_birdeater",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/5/56/GoliathBirdeater-0.jpg/revision/latest/scale-to-width-down/350?cb=20191112141133",
+        "continents": [
+            "South America"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "temperature_min": 23,
+        "temperature_max": 29,
+        "is_habitat": false,
+        "humidity_min": 50,
+        "humidity_max": 84
+    },
+    {
+        "name": "Goliath Frog",
+        "id": "goliath_frog",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/4/40/GoliathFrog.jpg/revision/latest/scale-to-width-down/350?cb=20191112062014",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Aquatic",
+            "Tropical"
+        ],
+        "temperature_min": 26,
+        "temperature_max": 32,
+        "is_habitat": false,
+        "humidity_min": 74,
+        "humidity_max": 86
+    },
+    {
+        "name": "Greater Flamingo",
+        "id": "greater_flamingo",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/3/3e/GreaterFlamingo.jpg/revision/latest/scale-to-width-down/350?cb=20191112100315",
+        "continents": [
+            "Africa",
+            "Asia",
+            "Europe"
+        ],
+        "biomes": [
+            "Aquatic",
+            "Tropical",
+            "Temperate",
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 300,
+        "water_area": 125,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Green Iguana",
+        "id": "green_iguana",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/c/cc/GreenIguana.jpg/revision/latest/scale-to-width-down/350?cb=20191112140659",
+        "continents": [
+            "South America",
+            "Central America"
+        ],
+        "biomes": [
+            "Temperate",
+            "Tropical"
+        ],
+        "temperature_min": 26,
+        "temperature_max": 31,
+        "is_habitat": false,
+        "humidity_min": 50,
+        "humidity_max": 60
+    },
+    {
+        "name": "Grizzly Bear",
+        "id": "grizzly_bear",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/8/8f/GrizzlyBear-0.jpg/revision/latest/scale-to-width-down/350?cb=20191112140525",
+        "continents": [
+            "North America"
+        ],
+        "biomes": [
+            "Taiga",
+            "Temperate",
+            "Tundra"
+        ],
+        "is_habitat": true,
+        "land_area": 750,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": -10,
+        "temperature_max": 28
+    },
+    {
+        "name": "Himalayan Brown Bear",
+        "id": "himalayan_brown_bear",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/3/3e/HimalayanBrownBear.jpg/revision/latest/scale-to-width-down/350?cb=20191112135743",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Taiga",
+            "Tundra"
+        ],
+        "is_habitat": true,
+        "land_area": 550,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": -10,
+        "temperature_max": 22
+    },
+    {
+        "name": "Hippopotamus",
+        "id": "hippopotamus",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/7/78/Hippopotamus-0.jpg/revision/latest/scale-to-width-down/350?cb=20191112133034",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Aquatic",
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 1004,
+        "water_area": 1004,
+        "climbing_area": 0,
+        "temperature_min": 10,
+        "temperature_max": 37
+    },
+    {
+        "name": "Indian Elephant",
+        "id": "indian_elephant",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/a/ac/IndianElephant.jpg/revision/latest/scale-to-width-down/350?cb=20191112132515",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Tropical",
+            "Grassland",
+            "Temperate"
+        ],
+        "is_habitat": true,
+        "land_area": 882,
+        "water_area": 67,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Indian Peafowl",
+        "id": "indian_peafowl",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/8/82/IndianPeafowl-0.jpg/revision/latest/scale-to-width-down/350?cb=20191112132152",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Temperate",
+            "Tropical",
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 312,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 3,
+        "temperature_max": 30
+    },
+    {
+        "name": "Indian Rhinoceros",
+        "id": "indian_rhinoceros",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/a/a7/IndianRhinoceros.jpg/revision/latest/scale-to-width-down/350?cb=20191112131834",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Grassland",
+            "Temperate"
+        ],
+        "is_habitat": true,
+        "land_area": 1000,
+        "water_area": 37,
+        "climbing_area": 0,
+        "temperature_min": 13,
+        "temperature_max": 40
+    },
+    {
+        "name": "Jaguar",
+        "id": "jaguar",
+        "dlc": "south_america_pack",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/e/ef/Jaguarzoopedia.jpg/revision/latest/scale-to-width-down/350?cb=20200408054727",
+        "continents": [
+            "South America",
+            "North America"
+        ],
+        "biomes": [
+            "Tropical",
+            "Grassland",
+            "Temperate"
+        ],
+        "is_habitat": true,
+        "land_area": 705,
+        "water_area": 0,
+        "climbing_area": 80,
+        "temperature_min": 8,
+        "temperature_max": 42
+    },
+    {
+        "name": "Japanese Macaque",
+        "id": "japanese_macaque",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/f/f9/JapaneseMacaque.jpg/revision/latest/scale-to-width-down/350?cb=20191112131346",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Taiga",
+            "Temperate"
+        ],
+        "is_habitat": true,
+        "land_area": 300,
+        "water_area": 0,
+        "climbing_area": 20,
+        "temperature_min": -15,
+        "temperature_max": 29
+    },
+    {
+        "name": "Komodo Dragon",
+        "id": "komodo_dragon",
+        "dlc": "deluxe",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/5/5a/KomodoDragon.jpg/revision/latest/scale-to-width-down/350?cb=20191112131026",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Tropical",
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 600,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 12,
+        "temperature_max": 42
+    },
+    {
+        "name": "Lehmann's Poison Frog",
+        "id": "lehmanns_poison_frog",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/3/3b/LehmannsPoisonFrog.jpg/revision/latest/scale-to-width-down/350?cb=20191112061326",
+        "continents": [
+            "South America"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "temperature_min": 26,
+        "temperature_max": 31,
+        "is_habitat": false,
+        "humidity_min": 80,
+        "humidity_max": 90
+    },
+    {
+        "name": "Lesser Antillean Iguana",
+        "id": "lesser_antillean_iguana",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/8/8c/Zoopedia_Antillean_Iguana.jpg/revision/latest/scale-to-width-down/350?cb=20191112081131",
+        "continents": [
+            "South America",
+            "Central America"
+        ],
+        "biomes": [
+            "Temperate",
+            "Tropical"
+        ],
+        "temperature_min": 26,
+        "temperature_max": 31,
+        "is_habitat": false,
+        "humidity_min": 50,
+        "humidity_max": 60
+    },
+    {
+        "name": "Llama",
+        "id": "llama",
+        "dlc": "south_america_pack",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/2/2a/Llamazoopedia.jpg/revision/latest/scale-to-width-down/350?cb=20200408055436",
+        "continents": [
+            "South America"
+        ],
+        "biomes": [
+            "Grassland",
+            "Taiga",
+            "Temperate"
+        ],
+        "is_habitat": true,
+        "land_area": 550,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": -5,
+        "temperature_max": 44
+    },
+    {
+        "name": "Mandrill",
+        "id": "mandrill",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/3/3f/Mandrill.jpg/revision/latest/scale-to-width-down/350?cb=20191112130422",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 400,
+        "water_area": 0,
+        "climbing_area": 40,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Mexican Red Knee Tarantula",
+        "id": "mexican_red_knee_tarantula",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/e/ef/MexicanRedKneeTarantula.jpg/revision/latest/scale-to-width-down/350?cb=20191112130021",
+        "continents": [
+            "Central America"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "temperature_min": 23,
+        "temperature_max": 29,
+        "is_habitat": false,
+        "humidity_min": 50,
+        "humidity_max": 84
+    },
+    {
+        "name": "Nile Monitor",
+        "id": "nile_monitor",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/3/32/NileMonitor.jpg/revision/latest/scale-to-width-down/350?cb=20191112125905",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Tropical",
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 300,
+        "water_area": 75,
+        "climbing_area": 0,
+        "temperature_min": 12,
+        "temperature_max": 42
+    },
+    {
+        "name": "Nyala",
+        "id": "nyala",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/d/d4/Nyala.jpg/revision/latest/scale-to-width-down/350?cb=20191112063445",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Tropical",
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 300,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Okapi",
+        "id": "okapi",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/7/72/Okapi0.jpg/revision/latest/scale-to-width-down/350?cb=20191112125252",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 1081,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Plains Zebra",
+        "id": "plains_zebra",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/3/34/PlainsZebra.jpg/revision/latest/scale-to-width-down/350?cb=20191112080710",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 510,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Polar Bear",
+        "id": "polar_bear",
+        "dlc": "arctic_pack",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/3/35/Polar_bear.jpg/revision/latest/scale-to-width-down/350?cb=20191218071232",
+        "continents": [
+            "North America",
+            "Europe"
+        ],
+        "biomes": [
+            "Aquatic",
+            "Tundra"
+        ],
+        "is_habitat": true,
+        "land_area": 6000,
+        "water_area": 4000,
+        "climbing_area": 0,
+        "temperature_min": -20,
+        "temperature_max": 10
+    },
+    {
+        "name": "Pronghorn Antelope",
+        "id": "pronghorn_antelope",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/f/f3/PronghornAntelope.jpg/revision/latest/scale-to-width-down/350?cb=20191112125117",
+        "continents": [
+            "North America"
+        ],
+        "biomes": [
+            "Grassland",
+            "Temperate"
+        ],
+        "is_habitat": true,
+        "land_area": 370,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 2,
+        "temperature_max": 40
+    },
+    {
+        "name": "Puff Adder",
+        "id": "puff_adder",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/4/47/PuffAdder.jpg/revision/latest/scale-to-width-down/350?cb=20191112124800",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Grassland"
+        ],
+        "temperature_min": 23,
+        "temperature_max": 31,
+        "is_habitat": false,
+        "humidity_min": 60,
+        "humidity_max": 80
+    },
+    {
+        "name": "Pygmy Hippo",
+        "id": "pygmy_hippo",
+        "dlc": "deluxe",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/b/b2/PygmyHippopotamus.jpg/revision/latest/scale-to-width-down/350?cb=20191112123745",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Aquatic",
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 270,
+        "water_area": 270,
+        "climbing_area": 0,
+        "temperature_min": 12,
+        "temperature_max": 37
+    },
+    {
+        "name": "Red-Eyed Tree Frog",
+        "id": "red-eyed_tree_frog",
+        "dlc": "south_america_pack",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/2/2e/Redeyedtreezoopedia.jpg/revision/latest/scale-to-width-down/350?cb=20200408054915",
+        "continents": [
+            "North America",
+            "South America"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "temperature_min": 23,
+        "temperature_max": 31,
+        "is_habitat": false,
+        "humidity_min": 60,
+        "humidity_max": 80
+    },
+    {
+        "name": "Red Panda",
+        "id": "red_panda",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/0/02/RedPanda.jpg/revision/latest/scale-to-width-down/350?cb=20191112122139",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Taiga",
+            "Temperate"
+        ],
+        "is_habitat": true,
+        "land_area": 220,
+        "water_area": 0,
+        "climbing_area": 40,
+        "temperature_min": 0,
+        "temperature_max": 29
+    },
+    {
+        "name": "Red Ruffed Lemur",
+        "id": "red_ruffed_lemur",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/5/51/RedRuffedLemur.jpg/revision/latest/scale-to-width-down/350?cb=20191112121908",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 210,
+        "water_area": 0,
+        "climbing_area": 20,
+        "temperature_min": 10,
+        "temperature_max": 40
+    },
+    {
+        "name": "Reindeer",
+        "id": "reindeer",
+        "dlc": "arctic_pack",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/e/ec/Reindeer.jpg/revision/latest/scale-to-width-down/350?cb=20191218070130",
+        "continents": [
+            "Europe",
+            "North America",
+            "Russia"
+        ],
+        "biomes": [
+            "Taiga",
+            "Tundra"
+        ],
+        "is_habitat": true,
+        "land_area": 370,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": -12,
+        "temperature_max": 16
+    },
+    {
+        "name": "Reticulated Giraffe",
+        "id": "reticulated_giraffe",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/8/81/ReticulatedGiraffe.jpg/revision/latest/scale-to-width-down/350?cb=20191112121738",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Tropical",
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 1306,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Ring Tailed Lemur",
+        "id": "ring_tailed_lemur",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/8/84/RingTailedLemur.jpg/revision/latest/scale-to-width-down/350?cb=20191112121051",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 210,
+        "water_area": 0,
+        "climbing_area": 20,
+        "temperature_min": 10,
+        "temperature_max": 40
+    },
+    {
+        "name": "Sable Antelope",
+        "id": "sable_antelope",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/d/db/SableAntelope0.jpg/revision/latest/scale-to-width-down/350?cb=20191112120847",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 450,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Saltwater Crocodile",
+        "id": "saltwater_crocodile",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/1/11/SaltwaterCrocodile.jpg/revision/latest/scale-to-width-down/350?cb=20191112115952",
+        "continents": [
+            "Asia",
+            "Oceania"
+        ],
+        "biomes": [
+            "Aquatic",
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 210,
+        "water_area": 210,
+        "climbing_area": 0,
+        "temperature_min": 12,
+        "temperature_max": 42
+    },
+    {
+        "name": "Snow Leopard",
+        "id": "snow_leopard",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/a/ad/SnowLeopard.jpg/revision/latest/scale-to-width-down/350?cb=20191112102454",
+        "continents": [
+            "Asia"
+        ],
+        "biomes": [
+            "Taiga"
+        ],
+        "is_habitat": true,
+        "land_area": 705,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": -4,
+        "temperature_max": 22
+    },
+    {
+        "name": "Spotted Hyena",
+        "id": "spotted_hyena",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/f/fa/SpottedHyena.jpg/revision/latest/scale-to-width-down/350?cb=20191112102329",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 1162,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Springbok",
+        "id": "springbok",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/b/bb/Springbok-0.jpg/revision/latest/scale-to-width-down/350?cb=20191112102044",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Grassland",
+            "Desert"
+        ],
+        "is_habitat": true,
+        "land_area": 425,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Thomson's Gazelle",
+        "id": "thomsons_gazelle",
+        "dlc": "deluxe",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/1/11/ThomsonsGazelle.jpg/revision/latest/scale-to-width-down/350?cb=20191112093637",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 425,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Timber Wolf",
+        "id": "timber_wolf",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/8/8f/TimberWolf.jpg/revision/latest/scale-to-width-down/350?cb=20191112093329",
+        "continents": [
+            "Europe",
+            "Asia",
+            "North America"
+        ],
+        "biomes": [
+            "Taiga",
+            "Temperate",
+            "Tundra"
+        ],
+        "is_habitat": true,
+        "land_area": 1162,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": -8,
+        "temperature_max": 29
+    },
+    {
+        "name": "Titan Beetle",
+        "id": "titan_beetle",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/8/86/TitanBeetle.jpg/revision/latest/scale-to-width-down/350?cb=20191112062830",
+        "continents": [
+            "South America"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "temperature_min": 23,
+        "temperature_max": 36,
+        "is_habitat": false,
+        "humidity_min": 40,
+        "humidity_max": 60
+    },
+    {
+        "name": "West African Lion",
+        "id": "west_african_lion",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/7/7f/WestAfricanLion.jpg/revision/latest/scale-to-width-down/350?cb=20191112091956",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 705,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Western Chimpanzee",
+        "id": "western_chimpanzee",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/e/ef/WesternChimpanzee.jpg/revision/latest/scale-to-width-down/350?cb=20191112090902",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 780,
+        "water_area": 0,
+        "climbing_area": 80,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Western Diamondback Rattlesnake",
+        "id": "western_diamondback_rattlesnake",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/9/98/WesternDiamondbackRattlesnake.jpg/revision/latest/scale-to-width-down/350?cb=20191112121535",
+        "continents": [
+            "North and Central America"
+        ],
+        "biomes": [
+            "Desert"
+        ],
+        "temperature_min": 24,
+        "temperature_max": 20,
+        "is_habitat": false,
+        "humidity_min": 40,
+        "humidity_max": 60
+    },
+    {
+        "name": "Western Lowland Gorilla",
+        "id": "western_lowland_gorilla",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/e/e2/WesternLowlandGorilla.jpg/revision/latest/scale-to-width-down/350?cb=20191112090456",
+        "continents": [
+            "Africa"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 780,
+        "water_area": 0,
+        "climbing_area": 40,
+        "temperature_min": 8,
+        "temperature_max": 40
+    },
+    {
+        "name": "Yellow Anaconda",
+        "id": "yellow_anaconda",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/8/87/YellowAnaconda.jpg/revision/latest/scale-to-width-down/350?cb=20191112080859",
+        "continents": [
+            "South America"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "temperature_min": 25,
+        "temperature_max": 30,
+        "is_habitat": false,
+        "humidity_min": 80,
+        "humidity_max": 90
+    },
+    {
+        "name": "Eastern Blue Tongued Lizard",
+        "id": "eastern_blue_tongued_lizard",
+        "dlc": "australia_pack",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/c/c3/Eastern_Blue_Tongued_Lizard_Inbox.jpeg/revision/latest/scale-to-width-down/640?cb=20200826215640",
+        "continents": [
+            "Oceania"
+        ],
+        "biomes": [
+            "Grassland",
+            "Temperate",
+            "Tropical"
+        ],
+        "temperature_min": 25,
+        "temperature_max": 35,
+        "is_habitat": false,
+        "humidity_min": 50,
+        "humidity_max": 60
+    },
+    {
+        "name": "Southern Cassowary",
+        "id": "southern_cassowary",
+        "dlc": "australia_pack",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/6/6b/Southern_Cassowary_Inbox.jpeg/revision/latest/scale-to-width-down/350?cb=20200826215252",
+        "continents": [
+            "Oceania",
+            "South East Asia"
+        ],
+        "biomes": [
+            "Tropical"
+        ],
+        "is_habitat": true,
+        "land_area": 400,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 12,
+        "temperature_max": 40
+    },
+    {
+        "name": "Red Kangaroo",
+        "id": "red_kangaroo",
+        "dlc": "australia_pack",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/1/1d/Red_Kangaroo_Inbox.jpeg/revision/latest/scale-to-width-down/350?cb=20200826214740",
+        "continents": [
+            "Oceania"
+        ],
+        "biomes": [
+            "Desert",
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 180,
+        "water_area": 0,
+        "climbing_area": 0,
+        "temperature_min": 12,
+        "temperature_max": 40
+    },
+    {
+        "name": "Koala",
+        "id": "koala",
+        "dlc": "australia_pack",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/1/1c/Koala_Inbox.jpeg/revision/latest/scale-to-width-down/350?cb=20200826215822",
+        "continents": [
+            "Oceania"
+        ],
+        "biomes": [
+            "Tropical",
+            "Temperate"
+        ],
+        "is_habitat": true,
+        "land_area": 180,
+        "water_area": 0,
+        "climbing_area": 20,
+        "temperature_min": 8,
+        "temperature_max": 42
+    },
+    {
+        "name": "Dingo",
+        "id": "dingo",
+        "dlc": "australia_pack",
+        "img": "https://vignette.wikia.nocookie.net/planetzoo/images/7/71/Dingo_Inbox.jpeg/revision/latest/scale-to-width-down/350?cb=20200826214945",
+        "continents": [
+            "Oceania"
+        ],
+        "biomes": [
+            "Desert",
+            "Grassland"
+        ],
+        "is_habitat": true,
+        "land_area": 1162,
+        "water_area": 0,
+        "climbing_area": 20,
+        "temperature_min": 12,
+        "temperature_max": 40
+    }
+]
