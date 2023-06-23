@@ -9,55 +9,51 @@ import northAmerica from "../assets/map/1x/north-america.png";
 import southAmercia from "../assets/map/1x/south-america.png";
 import Africa from "../assets/map/1x/africa.png";
 import Antartica from "../assets/map/1x/antartica.png";
-import { data } from "autoprefixer";
 
 const MainPage = () => {
-    const [dinos, setDino] = useState([]);
+    const [dinos, setDino] = useState();
     const [allDinos, setAllDino] = useState([]);
 
     const [selectedDino, setSelectedDino] = useState(0);
 
-    console.log(selectedDino);
+    console.log(dinos);
 
+    // eslint-disable-next-line react/prop-types
     const ContinentMap = ({ continent }) => {
         if (continent === "Europe") {
-            return <img style={{ height: 200 }} src={Europe} />;
+            return <img className="w-full" src={Europe} />;
         } else if (continent === "Asia") {
             return (
                 <>
-                    <img style={{ height: 200 }} src={Asia} />
+                    <img className="w-full" src={Asia} />
                 </>
             );
         } else if (continent === "Africa") {
             return (
                 <>
-                    <img style={{ height: 200 }} src={Africa} />
+                    <img className="w-full" src={Africa} />
                 </>
             );
         } else if (continent === "South America") {
             return (
                 <>
-                    <img style={{ height: 200 }} src={southAmercia} />
+                    <img className="w-full" src={southAmercia} />
                 </>
             );
         } else if (continent === "North America") {
             return (
                 <>
-                    <img style={{ height: 200 }} src={northAmerica} />
+                    <img className="w-full" src={northAmerica} />
                 </>
             );
         } else if (continent === "Antartica") {
             return (
                 <>
-                    <img style={{ height: 200 }} src={Antartica} />
+                    <img className="w-full" src={Antartica} />
                 </>
             );
         }
     };
-
-    useEffect(() => {
-        callDino();
-    }, []);
 
     const callDino = () => {
         const fetchData = async () => {
@@ -66,6 +62,7 @@ const MainPage = () => {
                 const dataArray = response.data;
 
                 setDino(dataArray[selectedDino]);
+                // console.log(dinos);
                 setAllDino(dataArray);
             } catch (error) {
                 console.log("Error fetching dinosaur data:", error);
@@ -75,12 +72,24 @@ const MainPage = () => {
     };
 
     const handleDinoClick = (index) => {
-        callDino();
         setSelectedDino(index);
+        callDino();
     };
 
-    // console.log(dinos);
+    useEffect(() => {
+        callDino();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+
+    useEffect(() => {
+        callDino();
+    }, [selectedDino]);
+
     console.log(dinos);
+
+    if (!dinos) {
+        return <h1>loading...</h1>;
+    }
 
     return (
         <>
@@ -106,14 +115,15 @@ const MainPage = () => {
 
                     <div className="flex flex-1 flex-col justify-between gap-2">
                         <div className="flex justify-center bg-white">
-                            {dinos.mediaCollection.map((url, i) => (
-                                <img
-                                    key={i}
-                                    className=" mix-blend-darken saturate-0 brightness-120 h-[400px]"
-                                    src={`https://www.nhm.ac.uk/resources/nature-online/life/dinosaurs/dinosaur-directory/images/reconstruction/small/${url.identifier}.jpg`}
-                                    alt=""
-                                />
-                            ))}
+                            {dinos.mediaCollection &&
+                                dinos.mediaCollection.map((url, i) => (
+                                    <img
+                                        key={i}
+                                        className=" mix-blend-darken saturate-0 brightness-120 h-[400px]"
+                                        src={`https://www.nhm.ac.uk/resources/nature-online/life/dinosaurs/dinosaur-directory/images/reconstruction/small/${url.identifier}.jpg`}
+                                        alt=""
+                                    />
+                                ))}
                         </div>
                         <div className="flex flex-col h-full p-6  gap-4">
                             <div className="w-full">
@@ -142,6 +152,7 @@ const MainPage = () => {
                                             <p className="text-base italic opacity-75 mt-2">
                                                 {dinos.myaFrom + "- "}{" "}
                                                 {dinos.myaTo} milion years ago
+                                                /src/assets/map/1x/south-america.png{" "}
                                             </p>
                                         </div>
                                         <div className="block">
@@ -170,7 +181,48 @@ const MainPage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-[350px] bg-slate-300">kanan</div>
+
+                    <div className="w-[350px] flex flex-col">
+                        <div className="map">
+                            <ContinentMap
+                                continent={
+                                    dinos.countries[0].continent.continent
+                                }
+                            />
+                            <span className="text-base font-semibold mt-5">
+                                Location
+                            </span>{" "}
+                            <p>{dinos.countries[0].continent.continent}</p>
+                        </div>
+
+                        <div className="mt-5">
+                            <div>
+                                <span className="text-base font-semibold">
+                                    Taxon
+                                </span>{" "}
+                                <p>{dinos.taxTaxon.taxon}</p>
+                                <br />
+                                <span className="text-base font-semibold">
+                                    Taxon
+                                </span>{" "}
+                                <p className="break-words">
+                                    {dinos.taxTaxon.taxonomyCSV}
+                                </p>
+                                <br />
+                                <span className="text-base font-semibold">
+                                    Genus Year
+                                </span>{" "}
+                                <p className="break-words">{dinos.genusYear}</p>
+                                <br />
+                                <span className="text-base font-semibold">
+                                    Genus Named by
+                                </span>{" "}
+                                <p className="break-words">
+                                    {dinos.genusNamedBy}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </>
