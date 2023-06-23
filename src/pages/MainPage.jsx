@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 
 import "./MainPage.css";
 
+import { dinoApi } from "../api/dinoApi.js";
+
 import Europe from "../assets/map/1x/europe.png";
 import Asia from "../assets/map/1x/asia.png";
 import northAmerica from "../assets/map/1x/north-america.png";
@@ -55,20 +57,33 @@ const MainPage = () => {
         }
     };
 
+<<<<<<< HEAD
     const callDino = () => {
         const fetchData = async () => {
             try {
                 const response = await axios.get("src/api/Dinosaur.json");
                 const dataArray = response.data;
+=======
+    // const callDino = () => {
+    //     const fetchData = async () => {
+    //         try {
+    //             const response = await axios.get("..src/api/Dinosaur.json");
+    //             const dataArray = response.data;
+>>>>>>> b2c6f7e (Update)
 
-                setDino(dataArray[selectedDino]);
-                // console.log(dinos);
-                setAllDino(dataArray);
-            } catch (error) {
-                console.log("Error fetching dinosaur data:", error);
-            }
-        };
-        fetchData();
+    //             setDino(dataArray[selectedDino]);
+
+    //             setAllDino(dataArray);
+    //         } catch (error) {
+    //             console.log("Error fetching dinosaur data:", error);
+    //         }
+    //     };
+    //     fetchData();
+    // };
+
+    const callDino = () => {
+        setDino(dinoApi[selectedDino]);
+        setAllDino(dinoApi);
     };
 
     const handleDinoClick = (index) => {
@@ -127,7 +142,7 @@ const MainPage = () => {
                                 />
                             ))}
                         </div>
-                        <div className="flex flex-col h-full p-6 gap-4 h-1/2 border-gray-100 border-2">
+                        <div className="flex flex-col p-6 gap-4 h-1/2 border-gray-100 border-2">
                             <div className="w-full">
                                 <span className="text-[24px] block font-semibold">
                                     {dinos.genus}
