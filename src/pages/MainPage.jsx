@@ -58,7 +58,7 @@ const MainPage = () => {
     const callDino = () => {
         const fetchData = async () => {
             try {
-                const response = await axios.get("./src/api/Dinosaur.json");
+                const response = await axios.get("src/api/Dinosaur.json");
                 const dataArray = response.data;
 
                 setDino(dataArray[selectedDino]);
