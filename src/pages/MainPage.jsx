@@ -57,19 +57,16 @@ const MainPage = () => {
         }
     };
 
-<<<<<<< HEAD
-    const callDino = () => {
-        const fetchData = async () => {
-            try {
-                const response = await axios.get("src/api/Dinosaur.json");
-                const dataArray = response.data;
-=======
+    // const callDino = () => {
+    //     const fetchData = async () => {
+    //         try {
+    //             const response = await axios.get("src/api/Dinosaur.json");
+    //             const dataArray = response.data;
     // const callDino = () => {
     //     const fetchData = async () => {
     //         try {
     //             const response = await axios.get("..src/api/Dinosaur.json");
     //             const dataArray = response.data;
->>>>>>> b2c6f7e (Update)
 
     //             setDino(dataArray[selectedDino]);
 
