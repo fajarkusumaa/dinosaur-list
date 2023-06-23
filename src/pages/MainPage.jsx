@@ -141,7 +141,7 @@ const MainPage = () => {
                         </div>
                         <div className="flex flex-col p-6 gap-4 h-1/2 border-gray-100 border-2">
                             <div className="w-full">
-                                <span className="text-[24px] block font-semibold">
+                                <span className="text-[24px] block font-semibold capitalize">
                                     {dinos.genus}
                                 </span>
                                 <span className="text-base italic opacity-60">
@@ -172,7 +172,7 @@ const MainPage = () => {
                                             <span className="text-base font-semibold">
                                                 Species
                                             </span>
-                                            <p className="text-base italic opacity-75 mt-2">
+                                            <p className="text-base italic opacity-75 mt-2 capitalize">
                                                 {dinos.species}
                                             </p>
                                         </div>
@@ -183,7 +183,7 @@ const MainPage = () => {
                                         <span className="text-base font-semibold">
                                             Diet
                                         </span>
-                                        <p className="text-base italic opacity-75 mt-2">
+                                        <p className="text-base italic opacity-75 mt-2 capitalize">
                                             {dinos.dietTypeName}
                                         </p>
                                     </div>
@@ -227,7 +227,7 @@ const MainPage = () => {
                                     <span className="text-base font-semibold">
                                         Taxon
                                     </span>
-                                    <p className="text-base italic opacity-75 mt-2">
+                                    <p className="text-base italic opacity-75 mt-2 capitalize">
                                         {dinos.taxTaxon.taxon}
                                     </p>
                                 </div>

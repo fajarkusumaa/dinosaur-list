@@ -1,5 +1,5 @@
 import "./App.css";
-import AnimalList from "./pages/AnimalList";
+
 import MainPage from "./pages/MainPage";
 
 // import Sidebar from "./Sidebar";
