@@ -93,39 +93,41 @@ const MainPage = () => {
 
     return (
         <>
-            <section>
-                <div className="flex w-full h-screen p-4 gap-2">
-                    <div className="w-[350px] p-6 pt-0 overflow-y-scroll relative ">
-                        <div className="bg-white sticky py-4 top-0">
+            <section className="overflow-hidden">
+                <div className="flex w-full h-screen p-4 gap-2 ">
+                    <div className="w-[350px] flex flex-col p-6 pt-0 tracking-wide border-2 border-gray-100 relative">
+                        <div className="py-4 top-0">
                             <span className="text-xl block font-semibold">
                                 Dinosaurus List
                             </span>
                         </div>
-                        {allDinos.map((dino, i) => (
-                            <div key={i} className="mt-4">
-                                <a
-                                    className="text-gray-600 hover:text-gray-800 hover:cursor-pointer"
-                                    onClick={() => handleDinoClick(i)}
-                                >
-                                    {dino.genus} {i}
-                                </a>
-                            </div>
-                        ))}
+
+                        <div className="overflow-y-scroll flex-1 dino-list">
+                            {allDinos.map((dino, i) => (
+                                <div key={i} className="mt-4">
+                                    <a
+                                        className="text-gray-600 hover:text-gray-800 hover:cursor-pointer"
+                                        onClick={() => handleDinoClick(i)}
+                                    >
+                                        {dino.genus}
+                                    </a>
+                                </div>
+                            ))}
+                        </div>
                     </div>
 
-                    <div className="flex flex-1 flex-col justify-between gap-2">
-                        <div className="flex justify-center bg-white">
-                            {dinos.mediaCollection &&
-                                dinos.mediaCollection.map((url, i) => (
-                                    <img
-                                        key={i}
-                                        className=" mix-blend-darken saturate-0 brightness-120 h-[400px]"
-                                        src={`https://www.nhm.ac.uk/resources/nature-online/life/dinosaurs/dinosaur-directory/images/reconstruction/small/${url.identifier}.jpg`}
-                                        alt=""
-                                    />
-                                ))}
+                    <div className="flex flex-1 flex-col justify-between gap-2 h-full ">
+                        <div className="flex justify-center h-1/2 p-6 border-gray-100 border-2">
+                            {dinos.mediaCollection.map((url, i) => (
+                                <img
+                                    key={i}
+                                    className=" mix-blend-darken saturate-0 brightness-120 object-contain"
+                                    src={`https://www.nhm.ac.uk/resources/nature-online/life/dinosaurs/dinosaur-directory/images/reconstruction/small/${url.identifier}.jpg`}
+                                    alt=""
+                                />
+                            ))}
                         </div>
-                        <div className="flex flex-col h-full p-6  gap-4">
+                        <div className="flex flex-col h-full p-6 gap-4 h-1/2 border-gray-100 border-2">
                             <div className="w-full">
                                 <span className="text-[24px] block font-semibold">
                                     {dinos.genus}
@@ -150,9 +152,8 @@ const MainPage = () => {
                                                 Period
                                             </span>
                                             <p className="text-base italic opacity-75 mt-2">
-                                                {dinos.myaFrom + "- "}{" "}
-                                                {dinos.myaTo} milion years ago
-                                                /src/assets/map/1x/south-america.png{" "}
+                                                {dinos.myaFrom + " - "}
+                                                {dinos.myaTo} milion years ago{" "}
                                             </p>
                                         </div>
                                         <div className="block">
@@ -165,7 +166,15 @@ const MainPage = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="w-1/2">
+                                <div className="w-1/2 flex flex-col gap-4">
+                                    <div className="block">
+                                        <span className="text-base font-semibold">
+                                            Diet
+                                        </span>
+                                        <p className="text-base italic opacity-75 mt-2">
+                                            {dinos.dietTypeName}
+                                        </p>
+                                    </div>
                                     <div className="block">
                                         <span className="text-base font-semibold">
                                             Body Shape
@@ -182,44 +191,60 @@ const MainPage = () => {
                         </div>
                     </div>
 
-                    <div className="w-[350px] flex flex-col">
-                        <div className="map">
+                    <div className="w-[350px] flex flex-col gap-2 flex-items-start">
+                        <div className="flex flex-col map p-6 border-gray-100 border-2">
                             <ContinentMap
                                 continent={
                                     dinos.countries[0].continent.continent
                                 }
                             />
-                            <span className="text-base font-semibold mt-5">
-                                Location
-                            </span>{" "}
-                            <p>{dinos.countries[0].continent.continent}</p>
+                            <div className="block mt-3">
+                                <span className="text-base font-semibold">
+                                    Location
+                                </span>
+                                <p className="italic text-base opacity-75 mt-2">
+                                    {dinos.countries[0].country},{" "}
+                                    {dinos.countries[0].continent.continent}
+                                </p>
+                            </div>
                         </div>
 
-                        <div className="mt-5">
-                            <div>
-                                <span className="text-base font-semibold">
-                                    Taxon
-                                </span>{" "}
-                                <p>{dinos.taxTaxon.taxon}</p>
-                                <br />
-                                <span className="text-base font-semibold">
-                                    Taxon
-                                </span>{" "}
-                                <p className="break-words">
-                                    {dinos.taxTaxon.taxonomyCSV}
-                                </p>
-                                <br />
-                                <span className="text-base font-semibold">
-                                    Genus Year
-                                </span>{" "}
-                                <p className="break-words">{dinos.genusYear}</p>
-                                <br />
-                                <span className="text-base font-semibold">
-                                    Genus Named by
-                                </span>{" "}
-                                <p className="break-words">
-                                    {dinos.genusNamedBy}
-                                </p>
+                        <div className="flex-1 p-6 border-gray-100 border-2">
+                            <div className="flex flex-col gap-4">
+                                <div className="block">
+                                    <span className="text-base font-semibold">
+                                        Taxon
+                                    </span>
+                                    <p className="text-base italic opacity-75 mt-2">
+                                        {dinos.taxTaxon.taxon}
+                                    </p>
+                                </div>
+                                <div className="block">
+                                    <span className="text-base font-semibold">
+                                        Taxonomy
+                                    </span>
+                                    <p className="text-base italic opacity-75 mt-2 break-words">
+                                        {dinos.taxTaxon.taxonomyCSV}
+                                    </p>
+                                </div>
+
+                                <hr />
+                                <div className="block">
+                                    <span className="text-base font-semibold">
+                                        Genus Year
+                                    </span>
+                                    <p className="text-base italic opacity-75 mt-2">
+                                        {dinos.genusYear}
+                                    </p>
+                                </div>
+                                <div className="block">
+                                    <span className="text-base font-semibold">
+                                        Genus Named by
+                                    </span>
+                                    <p className="text-base italic opacity-75 mt-2">
+                                        {dinos.genusNamedBy}
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
