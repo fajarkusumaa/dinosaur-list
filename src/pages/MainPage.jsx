@@ -148,7 +148,7 @@ const MainPage = () => {
                                     {dinos.nameMeaning}
                                 </span>
                             </div>
-                            <div className="flex w-full mt-5">
+                            <div className="flex w-full mt-2">
                                 <div className="w-1/2">
                                     <div className="flex flex-col gap-4">
                                         <div className="block">
