@@ -210,7 +210,7 @@ const MainPage = () => {
                     <div className="w-[350px] flex flex-col gap-2 flex-items-start ">
                         <div className="flex flex-col map p-6 border-gray-100 border-2 dino-list overflow-y-scroll h-auto max-h-[50%]">
                             {dinos.countries.map((location, i) => (
-                                <div key={i}>
+                                <div key={i} className="mt-4">
                                     <ContinentMap
                                         continent={location.continent.continent}
                                     />
