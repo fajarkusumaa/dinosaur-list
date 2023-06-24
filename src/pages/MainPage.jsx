@@ -105,7 +105,7 @@ const MainPage = () => {
 
     return (
         <>
-            <section className="overflow-hidden">
+            <section className="overflow-hidden w-screen">
                 <div className="flex w-full h-screen p-4 gap-2 ">
                     <div className="w-[350px] flex flex-col p-6 pt-0 tracking-wide border-2 border-gray-100 relative">
                         <div className="py-4 top-0">
@@ -141,10 +141,14 @@ const MainPage = () => {
                         </div>
                         <div className="flex flex-col p-6 gap-4 h-1/2 border-gray-100 border-2">
                             <div className="w-full">
-                                <span className="text-[24px] block font-semibold capitalize">
+                                <span className="text-[24px] flex items-center font-semibold capitalize">
                                     {dinos.genus}
+                                    {"  "}
+                                    <p className="italic font-medium text-base ps-1 opacity-75">
+                                        ({dinos.namePronounciation})
+                                    </p>
                                 </span>
-                                <span className="text-base italic opacity-60">
+                                <span className="text-base italic opacity-60 capitalize">
                                     {dinos.nameMeaning}
                                 </span>
                             </div>
@@ -203,25 +207,27 @@ const MainPage = () => {
                         </div>
                     </div>
 
-                    <div className="w-[350px] flex flex-col gap-2 flex-items-start">
-                        <div className="flex flex-col map p-6 border-gray-100 border-2">
-                            <ContinentMap
-                                continent={
-                                    dinos.countries[0].continent.continent
-                                }
-                            />
-                            <div className="block mt-3">
-                                <span className="text-base font-semibold">
-                                    Location
-                                </span>
-                                <p className="italic text-base opacity-75 mt-2">
-                                    {dinos.countries[0].country},{" "}
-                                    {dinos.countries[0].continent.continent}
-                                </p>
-                            </div>
+                    <div className="w-[350px] flex flex-col gap-2 flex-items-start ">
+                        <div className="flex flex-col map p-6 border-gray-100 border-2 dino-list overflow-y-scroll h-auto max-h-[50%]">
+                            {dinos.countries.map((location, i) => (
+                                <div key={i}>
+                                    <ContinentMap
+                                        continent={location.continent.continent}
+                                    />
+                                    <div className="block mt-3">
+                                        <span className="text-base font-semibold">
+                                            Location
+                                        </span>
+                                        <p className="italic text-base opacity-75 mt-2">
+                                            {location.country},{" "}
+                                            {location.continent.continent}
+                                        </p>
+                                    </div>
+                                </div>
+                            ))}
                         </div>
 
-                        <div className="flex-1 p-6 border-gray-100 border-2">
+                        <div className="flex-1 p-6 overflow-y-scroll dino-list border-gray-100 border-2">
                             <div className="flex flex-col gap-4">
                                 <div className="block">
                                     <span className="text-base font-semibold">

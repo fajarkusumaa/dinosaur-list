@@ -1,3 +1,7 @@
+* {
+    transition: all .5s ease-in;
+}
+
 .border-gray-100 {
     border-style: ridge !important;
     border-color: #be86264f !important;
